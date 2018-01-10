@@ -1,0 +1,20 @@
+#search-block-form input.form-submit {
+  background: #f0f0f0 url(/core/misc/icons/505050/loupe.svg) no-repeat center !important;
+  height: 34px !important;
+  text-indent: -9999px;
+}
+#block-stanford-light-728-search h2{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-search {
+    margin: -20px -20px 10px 0 !important;
+  }
+}
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0 none;
+}

@@ -1,0 +1,46 @@
+name: Fibonacci Light
+type: theme
+description: Fibonacci theme for drupal 8 with styles and regions from Drupal 7
+package: Other
+core: 8.x
+version: VERSION
+libraries:
+  - fibonacci_light/bootstrap
+  - fibonacci_light/base
+  - fibonacci_light/fonts-sans
+  - fibonacci_light/fonts-serif
+  - fibonacci_light/fonts-slab
+  - fibonacci_light/field
+  - fibonacci_light/open_framework
+  - fibonacci_light/stanford-light
+  - fibonacci_light/styles-light
+  - fibonacci_light/stanford-framework
+  - fibonacci_light/theme-settings
+  - fibonacci_light/header
+  - fibonacci_light/kipac
+
+ckeditor_stylesheets:
+  - vendor/bootstrap/css/bootstrap.min.css
+  - css/cke.css
+
+
+base theme: false
+
+regions:
+  site_login: 'Site Login'
+  header: 'Header'
+  navigation: 'Navigation'
+  search_box: 'Search Box'
+  full_bleed: 'Full Bleed'
+  main_top: 'Main Top'
+  sidebar_first: 'First sidebar'
+  highlighted: Highlighted
+  help: 'Help'
+  content_top: 'Content Top'
+  content: 'Content Body'
+  content_row2: 'Content: 2-column flow'
+  content_row3: 'Content: 3-column flow'
+  content_lower: 'Content: Lower'
+  sidebar_second: 'Second sidebar'
+  main_bottom: 'Main: Bottom'
+  footer: 'Footer'

@@ -1,0 +1,251 @@
+ /* HELPER CLASSES ************************ */
+/* ----- Style ----------------------- */
+.views-field-edit-node a, a.edit-link {
+    display: inline-block;
+    padding: 3px 7px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: 1px solid #DAD7CB;
+    margin: 10px 0 0;
+}
+
+
+.col-md-4 .field--name-field-featured-image {margin-top: 1em;}
+
+/* ----- Positioning ----------------- */
+
+.feed-icon {display: block;}
+.more-link {text-align: right}
+
+/* ----- Sizing ---------------------- */
+/* GENERAL OVERRIDES ********************* */
+/* ----- Bootstrap Overrides --------- */
+/* ----- Field Collection Overrides -- */
+/* ----- Field Label Overrides ------- */
+/* STANFORD FEATURES OVERRIDES *********** */
+/* ----- Banner Image Slideshow ------ */
+
+
+
+#toolbar-administration  a,
+.col-md-4 a  {
+    font-weight: normal;
+}
+
+.site-name {display: none;}
+
+/* --  login box -- */
+
+#admin-shortcuts a {
+     padding: 0 15px;     
+ }
+
+.admin-shortcuts {
+    padding: 1px;
+    text-align: right;
+    background: #f8f7f2;
+
+}
+
+.admin-shortcuts  .nav>li>a {
+    padding: 1px 15px;
+}
+
+ 
+ 
+#toolbar-administration  a,
+.col-md-4 a 
+
+{
+    font-weight: normal;
+}
+/* ----- background color for main menu desktop/mobile  ------ */
+
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+      background-color: #333333;  
+    background-image: none;}
+	
+@media (max-width: 767px){ 
+  .navbar .nav li.dropdown.open {
+     background: #e5e5e5;  
+    }
+}
+
+
+
+
+.views-field-field-featured-image img, .views-field-field-s-person-profile-picture img {  margin-right: 12px; border: 5px solid #5e5e5e;}
+
+.views-field-field-featured-image .col-md-4    {padding-left: 0;}
+
+.col-md-4 .field__label 
+{font-size: 18px; font-weight: 700; margin-bottom: 16px; margin-top: 12px; display: block;}
+
+
+
+/* --  research area pages  -- */
+
+.field--name-field-full-bleed-image.field--type-image {float:right; max-width: 50%; margin-left: 12px;}
+
+
+/* --  highligths   -- */
+
+.paragraph--type--research-image img {float:left; margin-right: 12px;}
+
+.highlights-page .col-md-12.views-row    {padding-left: 0;}
+
+.highlights-page .views-field.views-field-title h3  {display: inline;}
+
+/*  .highlights-page .views-field-created,   
+
+/* ----- person people styles ------------- */
+
+
+.kipac-people-views.alumni  h3 {clear: both;} /* clears titles for categories, eg. faculty, students, etc  */
+
+.kipac-people-views  .form-item  {float: left; padding-right: 20px;}
+.kipac-people-views  .form-actions {padding-top:17px; padding-bottom: 25px;}
+
+
+
+
+
+/* ----- Views Grids ------------- */
+
+.views-grid-four .views-row {
+  margin-right: 1.35%;
+}
+
+
+/* ----- inline images with captions ------ */
+.caption > figcaption {
+  background: #e0e0e0;
+  padding: 0.8em;
+  border: 1px solid #ccc;
+}
+.align-left {
+  margin-right:  2em  ;
+}
+
+.align-right {
+  margin-left:  2em  ;
+}
+
+figure.align-left, figure.align-right {
+  margin-bottom:  2em  ;
+}
+
+/* ----- images in views  ------ */
+
+.pull-left img, img.pull-left {  margin-right: 12px;}
+
+/* ----- css for filters in all views  ------ */
+
+#kipac-view-with-filters .form-item {float: left; padding-right: 20px;}
+#kipac-view-with-filters .form-actions {padding-top:17px; padding-bottom: 25px;}
+
+
+/* ----------- social icons ------------ */
+
+.social-media-icons li a img {
+  background-color: #49525a;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  padding: 8px;
+}
+.social-media-icons li a:hover img {
+    background-color: #5e5e5e;
+}
+.social-media-icons ul {
+  padding: 0;
+}
+.social-media-icons ul li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0 1em 0 0;
+}
+
+ 
+
+/* ----------- events styles ------------ */
+.date-stacked {
+    padding: 10px 14px;
+    margin-right: 12px;
+    max-width: 4.5em;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.field--name-field-stanford-event-datetime  { margin: 1em auto; font-weight: 700; font-size: 16px;}
+
+.page-node-type-stanford-event .field--name-field-stanford-event-datetime {
+  font-size: 16px;
+}
+
+/*  vertical tabs in event content type  -- */
+
+.page-node-type-event .content ul li.vertical-tabs__menu-item {
+    list-style-type: none;
+}
+
+.vertical-tabs__panes .field  {padding: 1em;}
+
+ /* ----- calendar styles ------------- */
+
+  
+.calendar-calendar div.calendar {font-size: 14px; line-height: 1.4em;}
+.calendar-calendar div.calendar talk {color: #333; font-weight: 700;} 
+
+.calendar-calendar div.calendar a {display: block; font-weight: normal;}  
+
+
+
+.calendar-calendar .month-view .full td.date-box.today {
+    background-color: #e9e6df;
+}
+.calendar-calendar .month-view .full tr td.single-day.today {
+    background-color: #e9e6df;
+}
+
+.calendar-calendar td.today .mini-day-off {
+  color: #fbfbf9;
+  color: #2c2c2c;
+}
+
+/* line 758, ../../sass/stanford_light/styles/_styles.scss */
+.calendar-calendar tr td.has-events a:hover {
+  
+  color: #8c1515;
+}
+
+/* line 764, ../../sass/stanford_light/styles/_styles.scss  change this line for table color */
+.calendar-calendar tr td.today a,
+.calendar-calendar tr td.today a:hover {
+ 
+  color: #fbfbf9;
+  color: #8c1515;
+
+}
+
+/* line 807, ../../sass/stanford_light/styles/_styles.scss */
+.calendar-calendar tr td.today,
+.calendar-calendar tr.odd td.today,
+.calendar-calendar tr.even td.today {
+  background-color: #8c1515;
+  color: #fbfbf9;
+  color: #2c2c2c;
+}
+
+ /* ----- front page------------- */
+
+.path-frontpage .full-bleed .views-field-title  a {
+  color:#eee;
+}
+
