@@ -24,7 +24,7 @@ ckeditor_stylesheets:
   - css/cke.css
 
 
-base theme: false
+base theme: stable
 
 regions:
   site_login: 'Site Login'
