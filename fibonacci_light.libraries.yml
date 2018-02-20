@@ -29,8 +29,6 @@ open_framework:
   css:
     theme:
       css/open_framework.css: {}
-  js:
-    js/open_framework.js: {}
   dependencies:
     - core/jquery
     - core/drupal.ajax
@@ -60,11 +58,6 @@ stanford-framework:
   version: VERSION
   js:
     js/stanford-framework.js: {}
-
-override:
-  version: VERSION
-  js:
-    js/override.js: {}
 
 theme-settings:
   version: VERSION
