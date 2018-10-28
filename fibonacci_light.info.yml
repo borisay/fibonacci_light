@@ -1,23 +1,23 @@
 name: Fibonacci Light
 type: theme
-description: Fibonacci theme for drupal 8 with styles and regions from Drupal 7
+description: Light theme for Drupal 8 based on bootstrap framework with additional classes and behaviours for ease of use
 package: Other
 core: 8.x
 version: VERSION
 libraries:
   - fibonacci_light/bootstrap
-  - fibonacci_light/base
-  - fibonacci_light/fonts-sans
-  - fibonacci_light/fonts-serif
-  - fibonacci_light/fonts-slab
-  - fibonacci_light/field
   - fibonacci_light/open_framework
-  - fibonacci_light/stanford-light
-  - fibonacci_light/styles-light
-  - fibonacci_light/stanford-framework
-  - fibonacci_light/theme-settings
-  - fibonacci_light/header
-  - fibonacci_light/kipac
+  - fibonacci_light/base
+#  - fibonacci_light/fonts-sans
+#  - fibonacci_light/fonts-serif
+#  - fibonacci_light/fonts-slab
+  - fibonacci_light/field
+#  - fibonacci_light/open_framework
+#  - fibonacci_light/stanford-light
+#  - fibonacci_light/styles-light
+#  - fibonacci_light/stanford-framework
+#  - fibonacci_light/theme-settings
+#  - fibonacci_light/header
 
 ckeditor_stylesheets:
   - vendor/bootstrap/css/bootstrap.min.css

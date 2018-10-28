@@ -36,12 +36,6 @@ open_framework:
     - core/drupalSettings
     - core/jquery.once
 
-stanford-default:
-  version: VERSION
-  css:
-    theme:
-      css/stanford-default.css: {}
-
 stanford-light:
   version: VERSION
   css:
@@ -54,16 +48,6 @@ styles-light:
     theme:
       css/styles-light.css: {}
 
-stanford-framework:
-  version: VERSION
-  js:
-    js/stanford-framework.js: {}
-
-theme-settings:
-  version: VERSION
-  js:
-    js/theme-settings.js: {}
-
 header:
   version: VERSION
   css:
@@ -75,40 +59,3 @@ field:
   css:
     theme:
       css/field.css: {}
-
-global-components:
-  Version: 1.x
-  css:
-    theme:
-      css/font-awesome.css: {}
-      css/custom-style.css: {}
-      css/custom-media.css: {}
-  js:
-    js/jquery.smartmenus.min.js: {}
-    js/custom.js: {}
-  dependencies:
-    - core/jquery
-    - core/drupal.ajax
-    - core/drupal
-    - core/drupalSettings
-    - core/jquery.once
-
-full-bleed:
-  Version: 1.0
-  css:
-    theme:
-      css/full-bleed.css: {}
-  js:
-    js/full-bleed.js: {}
-  dependencies:
-    - core/jquery
-    - core/drupal.ajax
-    - core/drupal
-    - core/drupalSettings
-    - core/jquery.once
-
-kipac:
-  Version: 1.0
-  css:
-    theme:
-      css/kipac.css: {}	
