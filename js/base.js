@@ -1,25 +1,35 @@
 /**
- * Created by borisayupov on 11/13/16.
+ * Created by borisayupov on 1/8/19.
  */
-! function($) {
-  $(document).ready(function() {
-    //-- Search icon
-    (function() {
 
-      $(".open-form").click(function(){
-        $(".open-form").hide();
-        $(".close-form").css("display","block");
-        $(".search-block-form").show();
-        $(".search-block-form input").focus();
-        return false;
+(function ($, Drupal) {
+  Drupal.behaviors.stickyFooter = {
+    attach: function (context, settings) {
+      $body = $('body');
+      $footer = $("#footer");
+      $footerHeight = $footer.outerHeight();
+      if($footer){
+        calc();
+      }
+      $(window).resize(function () {
+        calc();
       });
-      $(".close-form").click(function(){
-        $(".close-form").hide();
-        $(".open-form").css("display","block");
-        $(".search-block-form").hide();
-        return false;
-      });
-
-    })();
-  });
-}(jQuery);
+      function calc(){
+        $wrap = $("#wrap");
+        $footer = $("#footer");
+        $toolbar1 = 0;
+        $toolbar2 = 0;
+        if($body.find('.is-active').length !== 0) {
+          $toolbar1 = 39;
+        }
+        if($body.find('.toolbar-bar').length !== 0){
+          $toolbar2 = $body.find('.toolbar-bar').height();
+        }
+        $delta = $(window).height() - ($wrap.height() + $footerHeight);
+        if($delta > ($toolbar1 + $toolbar2)) {
+          $footer.css({'margin-top': ($delta-$toolbar1-$toolbar2)+'px'});
+        }
+      }
+    }
+  };
+})(jQuery, Drupal);

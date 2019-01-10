@@ -1,0 +1,13 @@
+/*-- header styles, move to base.css ---*/
+
+/*.site-name, .site-slogan {*/
+  /*margin-left: 120px;*/
+/*}*/
+
+.site-name::before {
+  display: none;
+}
+
+.logo img {
+  width: 100px;
+}
