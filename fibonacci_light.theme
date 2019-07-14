@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Functions to support theming in the stanford_light_728 theme.
+ * Functions to support theming in the fibonacci_light theme.
  */
 
 /**
@@ -136,6 +136,13 @@ function fibonacci_light_preprocess_details(array &$variables) {
  * Implements hook_theme_suggestions_details_alter().
  */
 function fibonacci_light_theme_suggestions_details_alter(array &$suggestions, array $variables) {
+
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for form templates.
+ */
+function fibonacci_light_theme_suggestions_views_exposed_form_alter(array &$suggestions, array $variables) {
 
 }
 

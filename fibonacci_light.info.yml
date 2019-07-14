@@ -8,14 +8,7 @@ libraries:
   - fibonacci_light/bootstrap
   - fibonacci_light/open_framework
   - fibonacci_light/base
-#  - fibonacci_light/fonts-sans
-#  - fibonacci_light/fonts-serif
-#  - fibonacci_light/fonts-slab
   - fibonacci_light/field
-#  - fibonacci_light/open_framework
-#  - fibonacci_light/stanford-light
-#  - fibonacci_light/styles-light
-#  - fibonacci_light/stanford-framework
 #  - fibonacci_light/theme-settings
 #  - fibonacci_light/header
   - fibonacci_light/custom

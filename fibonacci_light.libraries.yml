@@ -36,12 +36,6 @@ open_framework:
     - core/drupalSettings
     - core/jquery.once
 
-stanford-light:
-  version: VERSION
-  css:
-    theme:
-      css/stanford-light.css: {}
-
 styles-light:
   version: VERSION
   css:
