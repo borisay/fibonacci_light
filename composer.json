@@ -1,0 +1,5 @@
+{
+  "name": "borisay/fibonacci_light",
+  "description": "Fibonacci Light is a theme for Drupal 8.  It is a flexible theme\nwith a responsive and mobile-first layout, supporting two sidebars and full bleed regions.",
+  "type": "drupal-theme"
+}
